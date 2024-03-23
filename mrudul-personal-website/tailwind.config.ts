@@ -13,26 +13,12 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        mgray: "#373638",
+        mpurple: "#9c89ff",
+      },
     },
   },
   plugins: [require("daisyui")],
-  daisyui: {
-    themes: [
-      "light",
-      "dark",
-      "retro",
-      "valentine",
-      "aqua",
-      {
-        "custom-theme": {
-          primary: "#a991f7",
-          secondary: "#f6d860",
-          accent: "#37cdbe",
-          neutral: "#3d4451",
-          "base-100": "#ffffff",
-        },
-      },
-    ],
-  },
 };
 export default config;
