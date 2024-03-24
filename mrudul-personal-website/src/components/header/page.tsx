@@ -1,7 +1,16 @@
-export default function Top() {
+"use client";
+import { useState } from "react";
+
+export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleNav = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <div>
-      <div className="flex bg-mgray text-white items-center justify-between px-12 py-8 fixed w-full">
+      <div className="flex bg-mgray text-white items-center justify-between px-12 py-8 fixed w-full ">
         <div className=" space-x-6 flex items-center  ">
           <span className="text-4xl text-mpurple font-bold">Immrudul</span>
           <span className="lg:block hidden text-2xl">|</span>
@@ -9,7 +18,7 @@ export default function Top() {
           <span className="lg:block hidden hover:text-mpurple">EXPERIENCE</span>
           <span className="lg:block hidden hover:text-mpurple">PROJECTS</span>
         </div>
-        <button className="lg:hidden block">
+        <button className="lg:hidden block" onClick={handleNav}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="40 "
@@ -76,6 +85,16 @@ export default function Top() {
             <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
           </svg>
         </div>
+      </div>
+
+      <div
+        className={
+          menuOpen
+            ? "h-fit text-white fixed left-0 top-24 w-full sm:hidden  bg-mgray ease-in duration-150 px-10 transition-all"
+            : "h-fit text-white top-24 w-full fixed left-[-100%]  px-10 ease-in duration-150 transition-all"
+        }
+      >
+        hi
       </div>
     </div>
   );
