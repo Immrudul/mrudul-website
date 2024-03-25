@@ -16,9 +16,9 @@ export default function Header() {
         <div className="space-x-6 flex items-center">
           <span className="text-4xl text-mpurple font-bold">Immrudul</span>
           <span className="lg:block hidden text-2xl">|</span>
-          <span className="lg:block hidden hover:text-mpurple">HOME</span>
-          <span className="lg:block hidden hover:text-mpurple">EXPERIENCE</span>
-          <span className="lg:block hidden hover:text-mpurple">PROJECTS</span>
+          <span className="lg:flex items-center hidden m-btn-hover">HOME</span>
+          <span className="lg:block hidden m-btn-hover">EXPERIENCE</span>
+          <span className="lg:block hidden m-btn-hover">PROJECTS</span>
         </div>
         <button
           className="lg:hidden block outline-none transition-transform duration-300 transform lg:hover:scale-125"
