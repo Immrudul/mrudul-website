@@ -5,3 +5,13 @@
 * {
   @apply transition-colors duration-150;
 }
+
+.icon-transition {
+  transition: transform 0.3s ease; /* Adjust the duration and easing as needed */
+}
+
+.m-icon:hover {
+  color: #9c89ff;
+  transition: all;
+  transition-duration: 75ms;
+}
