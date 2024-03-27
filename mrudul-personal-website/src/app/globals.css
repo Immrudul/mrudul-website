@@ -8,18 +8,23 @@
 
 .m-icon:hover {
   color: #9c89ff;
-  transition: 0.3s;
-  transition-duration: 75ms;
   scale: 1.3;
+}
+
+.m-icon {
+  transition: ease-in-out;
+  transition-duration: 75ms;
 }
 
 .m-btn-hover:hover {
   border-bottom: 3px solid #9c89ff;
   padding: 5px 10px;
-  transition: all;
-  transition-duration: 200ms;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #9c89ff;
+}
+
+.m-btn-hover {
+  transition: ease-in-out 200ms;
 }
