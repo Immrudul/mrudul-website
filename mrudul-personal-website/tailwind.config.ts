@@ -19,6 +19,7 @@ const config: Config = {
       colors: {
         mgray: "#373638",
         mpurple: "#9c89ff",
+        mwhite: "#CFCBC5",
       },
     },
   },

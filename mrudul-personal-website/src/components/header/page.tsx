@@ -20,7 +20,7 @@ export default function Header() {
 
   return (
     <div>
-      <div className="flex bg-mgray text-white items-center justify-between px-12 py-8 fixed w-full">
+      <div className="flex bg-mgray text-mwhite items-center justify-between px-12 py-8 fixed w-full">
         <div className="space-x-6 flex items-center">
           <span className="text-4xl text-mpurple font-bold">Immrudul</span>
           <span className="lg:flex hidden text-2xl">|</span>
@@ -52,8 +52,8 @@ export default function Header() {
       <div
         className={
           menuOpen
-            ? "h-fit text-white fixed left-0 top-24 w-full lg:hidden bg-mgray ease-in duration-150 px-10 transition-all"
-            : "h-fit text-white top-24 w-full fixed left-[-100%]  px-10 ease-in duration-150 transition-all"
+            ? "h-fit text-mwhite fixed left-0 top-24 w-full lg:hidden bg-mgray ease-in duration-150 px-10 transition-all"
+            : "h-fit text-mwhite top-24 w-full fixed left-[-100%]  px-10 ease-in duration-150 transition-all"
         }
       >
         <div className="bg-mgray pl-2 ">
