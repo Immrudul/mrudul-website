@@ -15,10 +15,12 @@ export default function Hero() {
           </div>
         </div>
         <div className="hidden sm:flex mx-[10%]">
-          <img
-            src="Lovesick.png"
+          <Image
+            src="/Lovesick.png"
             alt="UWSD"
-            className=" object-cover w-full aspect-square "
+            className="object-cover w-full aspect-square"
+            width={500}
+            height={500}
           />
         </div>
       </div>
