@@ -80,8 +80,8 @@ export function YouTubeIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="28"
-      height="28"
+      width="32"
+      height="32"
       fill="currentColor"
       className="bi bi-youtube m-icon"
       viewBox="0 0 16 16"
@@ -95,8 +95,8 @@ export function MailIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="25"
-      height="25"
+      width="30"
+      height="30"
       fill="currentColor"
       className="bi bi-envelope-fill m-icon"
       viewBox="0 0 16 16"
