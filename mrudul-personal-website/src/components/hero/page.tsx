@@ -5,7 +5,7 @@ export default function Hero() {
     <div className="bg-mgray ">
       <div className="h-[100vh] flex items-center">
         <div className="flex flex-col ">
-          <div className="xl:text-5xl lg:text-4xl sm:text-3xl text-2xl font-bold text-mwhite xl:pl-32 lg:pl-24 md:pl-16 sm:pl-10 pl-6">
+          <div className="xl:text-5xl lg:text-4xl text-2xl font-bold text-mwhite xl:pl-32 lg:pl-24 md:pl-16 sm:pl-10 pl-6">
             Hi! Im Mrudul Suresh,
           </div>
           <div className=" xl:pl-32 lg:pl-24 md:pl-16 sm:pl-10 pl-6 xl:text-xl lg:text-lg text-base text-mwhite mt-4 w-auto pr-6 sm:pr-0">
@@ -19,8 +19,8 @@ export default function Hero() {
             src="/Lovesick.png"
             alt="UWSD"
             className="object-cover w-full aspect-square"
-            width={500}
-            height={500}
+            width={600}
+            height={600}
           />
         </div>
       </div>
