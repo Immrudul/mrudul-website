@@ -9,7 +9,7 @@ export default function Experiences() {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="w-5 h-5"
+                className="w-5 h-5 text-mpurple"
               >
                 <path
                   fillRule="evenodd"
@@ -18,19 +18,22 @@ export default function Experiences() {
                 />
               </svg>
             </div>
-            <div className="timeline-end timeline-box">
-              First Macintosh computer computer
+            <div className="timeline-end timeline-box bg-slate-600 border-0">
+              <div className="flex space-x-10">
+                <div>yo whts up</div>
+                <div>hi gang</div>
+              </div>
             </div>
-            <hr />
+            <hr className="bg-mwhite" />
           </li>
           <li>
-            <hr />
+            <hr className="bg-mwhite" />
             <div className="timeline-middle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="w-5 h-5"
+                className="w-5 h-5 text-mpurple"
               >
                 <path
                   fillRule="evenodd"
@@ -40,17 +43,17 @@ export default function Experiences() {
               </svg>
             </div>
             <div className="timeline-end timeline-box">iMac</div>
-            <hr />
+            <hr className="bg-mwhite" />
           </li>
           <li>
-            <hr />
+            <hr className="bg-mwhite" />
 
             <div className="timeline-middle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="w-5 h-5"
+                className="w-5 h-5 text-mpurple"
               >
                 <path
                   fillRule="evenodd"
@@ -60,17 +63,17 @@ export default function Experiences() {
               </svg>
             </div>
             <div className="timeline-end timeline-box">iPod</div>
-            <hr />
+            <hr className="bg-mwhite" />
           </li>
           <li>
-            <hr />
+            <hr className="bg-mwhite" />
 
             <div className="timeline-middle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="w-5 h-5"
+                className="w-5 h-5 text-mpurple"
               >
                 <path
                   fillRule="evenodd"
@@ -80,17 +83,17 @@ export default function Experiences() {
               </svg>
             </div>
             <div className="timeline-end timeline-box">iPhone</div>
-            <hr />
+            <hr className="bg-mwhite" />
           </li>
           <li>
-            <hr />
+            <hr className="bg-mwhite" />
 
             <div className="timeline-middle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="w-5 h-5"
+                className="w-5 h-5 text-mpurple"
               >
                 <path
                   fillRule="evenodd"
