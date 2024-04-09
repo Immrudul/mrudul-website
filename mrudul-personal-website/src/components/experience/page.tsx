@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Experiences() {
   return (
     <div className="bg-mgray flex justify-start">
@@ -18,10 +19,19 @@ export default function Experiences() {
                 />
               </svg>
             </div>
-            <div className="timeline-end timeline-box bg-slate-600 border-0">
-              <div className="flex space-x-10">
-                <div>yo whts up</div>
-                <div>hi gang</div>
+            <div className="timeline-end timeline-box  border-0 p-0 bg-mgray">
+              <div className="flex">
+                <div className="w-32 h-4w-32 bg-red-200">
+                  {" "}
+                  <Image
+                    src="/Lovesick.png"
+                    alt="image"
+                    width={1000}
+                    height={1000}
+                    className="object-cover w-full aspect-square"
+                  />
+                </div>
+                <div className="">hi</div>
               </div>
             </div>
             <hr className="bg-mwhite" />
