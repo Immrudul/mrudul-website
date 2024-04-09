@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <div className="bg-mgray ">
-      <div className="h-[100vh] flex items-center">
+      <div className="h-[80vh] pt-[20vh] flex items-center">
         <div className="flex flex-col ">
           <div className="xl:text-5xl lg:text-4xl text-2xl font-bold text-mwhite xl:pl-32 lg:pl-24 md:pl-16 sm:pl-10 pl-6">
             Hi! Im Mrudul Suresh,

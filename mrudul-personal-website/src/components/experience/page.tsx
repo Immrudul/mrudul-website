@@ -19,7 +19,7 @@ export default function Experiences() {
                 />
               </svg>
             </div>
-            <div className="timeline-end timeline-box  border-0 p-0 bg-mgray lg:flex items-center">
+            <div className="timeline-end timeline-box  border-0 p-2 bg-mgray lg:flex items-center my-28 w-[70vw] ">
               <div className="w-32 h-32 ">
                 {" "}
                 <Image
@@ -30,20 +30,32 @@ export default function Experiences() {
                   className="object-cover w-full aspect-square rounded-lg"
                 />
               </div>
-              <div className="mt-44 lg:block hidden">
-                <div>hi</div>
-                <div>hi</div>
-                <div>hi</div>
-                <div>hi</div>
-                <div>hi</div>
-                <div>hi</div>
-                <div>hi</div>
-                <div>hi</div>
-                <div>hi</div>
-                <div>hi</div>
-                <div>hi</div>
-                <div>hi</div>
-                <div>hi</div>
+              <div className=" lg:block hidden ml-10 w-2/5">
+                <div className="text-zinc-400 mt-32">
+                  January 2024 - April 2024
+                </div>
+
+                <div className="text-mwhite font-bold text-2xl mt-6">
+                  GroovEver
+                </div>
+                <div className="text-mpurple font-medium text-xl">
+                  Web Developer
+                </div>
+                <div className="text-zinc-400 ">Waterloo, Ontario</div>
+                <div className="text-zinc-300 mt-6">
+                  Software development for groovever.com.
+                </div>
+                <div className="flex flex-wrap gap-x-1.5 gap-y-1 items-center mt-3 text-sm">
+                  <div className="mskill">Next.js</div>
+                  <div className="mskill">TypeScript</div>
+                  <div className="mskill">React</div>
+                  <div className="mskill">Tailwind CSS</div>
+                  <div className="mskill">daisyUI</div>
+                  <div className="mskill">Bootstrap</div>
+                  <div className="mskill">HTML</div>
+                  <div className="mskill">CSS</div>
+                  <div className="mskill">Node.js</div>
+                </div>
               </div>
             </div>
             <hr className="bg-mwhite" />
