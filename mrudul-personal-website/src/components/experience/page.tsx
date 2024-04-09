@@ -19,19 +19,31 @@ export default function Experiences() {
                 />
               </svg>
             </div>
-            <div className="timeline-end timeline-box  border-0 p-0 bg-mgray">
-              <div className="flex">
-                <div className="w-32 h-4w-32 bg-red-200">
-                  {" "}
-                  <Image
-                    src="/Lovesick.png"
-                    alt="image"
-                    width={1000}
-                    height={1000}
-                    className="object-cover w-full aspect-square"
-                  />
-                </div>
-                <div className="">hi</div>
+            <div className="timeline-end timeline-box  border-0 p-0 bg-mgray lg:flex items-center">
+              <div className="w-32 h-32 ">
+                {" "}
+                <Image
+                  src="/MelodicBlue7.65.png"
+                  alt="image"
+                  width={1000}
+                  height={1000}
+                  className="object-cover w-full aspect-square rounded-lg"
+                />
+              </div>
+              <div className="mt-44 lg:block hidden">
+                <div>hi</div>
+                <div>hi</div>
+                <div>hi</div>
+                <div>hi</div>
+                <div>hi</div>
+                <div>hi</div>
+                <div>hi</div>
+                <div>hi</div>
+                <div>hi</div>
+                <div>hi</div>
+                <div>hi</div>
+                <div>hi</div>
+                <div>hi</div>
               </div>
             </div>
             <hr className="bg-mwhite" />
