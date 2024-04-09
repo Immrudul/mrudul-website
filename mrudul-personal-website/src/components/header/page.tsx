@@ -20,7 +20,7 @@ export default function Header() {
 
   return (
     <div>
-      <div className="flex bg-mgray text-mwhite items-center justify-between px-12 py-8 fixed w-full">
+      <div className="flex bg-mgray text-mwhite items-center justify-between px-12 py-8 fixed w-full z-50">
         <div className="space-x-6 flex items-center">
           <span className="text-4xl text-mpurple font-bold">Immrudul</span>
           <span className="lg:flex hidden text-2xl">|</span>
