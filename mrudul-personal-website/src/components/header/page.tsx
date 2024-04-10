@@ -52,11 +52,11 @@ export default function Header() {
       <div
         className={
           menuOpen
-            ? "h-fit text-mwhite fixed left-0 top-24 w-full lg:hidden bg-mgray ease-in duration-150 px-10 transition-all"
-            : "h-fit text-mwhite top-24 w-full fixed left-[-100%]  px-10 ease-in duration-150 transition-all"
+            ? "h-fit text-mwhite fixed left-0 top-24 lg:hidden bg-mgray ease-in duration-150 transition-all z-50"
+            : "h-fit text-mwhite top-24 fixed left-[-100%] ease-in duration-150 transition-all z-50"
         }
       >
-        <div className="bg-mgray pl-2 ">
+        <div className="bg-mgray pl-10 fixed z-50 w-full">
           <div className="space-x-4 flex w-full text-sm">
             <div className="">HOME</div>
             <div className="">EXPERIENCE</div>
