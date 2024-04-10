@@ -44,7 +44,7 @@ export default function Experiences() {
               <div className="text-zinc-300 mt-6">
                 Software development for groovever.com.
               </div>
-              <div className="flex flex-wrap gap-x-1.5 gap-y-1 items-center mt-3 text-sm mb-20 lg:w-96 w-80 ">
+              <div className="flex flex-wrap gap-x-1.5 gap-y-1 items-center mt-3 text-sm mb-20 lg:w-[30vw] w-80 ">
                 <div className="mskill">Next.js</div>
                 <div className="mskill">TypeScript</div>
                 <div className="mskill">React.js</div>
@@ -102,7 +102,7 @@ export default function Experiences() {
               <div className="text-zinc-300 mt-6">
                 Software development for groovever.com.
               </div>
-              <div className="flex flex-wrap gap-x-1.5 gap-y-1 items-center mt-3 text-sm mb-20 lg:w-96 w-80 ">
+              <div className="flex flex-wrap gap-x-1.5 gap-y-1 items-center mt-3 text-sm mb-20 lg:w-[30vw] w-80 ">
                 <div className="mskill">Next.js</div>
                 <div className="mskill">TypeScript</div>
                 <div className="mskill">React.js</div>
@@ -160,7 +160,7 @@ export default function Experiences() {
               <div className="text-zinc-300 mt-6">
                 Software development for groovever.com.
               </div>
-              <div className="flex flex-wrap gap-x-1.5 gap-y-1 items-center mt-3 text-sm mb-20 lg:w-96 w-80 ">
+              <div className="flex flex-wrap gap-x-1.5 gap-y-1 items-center mt-3 text-sm mb-20 lg:w-[30vw] w-80 ">
                 <div className="mskill">Next.js</div>
                 <div className="mskill">TypeScript</div>
                 <div className="mskill">React.js</div>
@@ -218,7 +218,7 @@ export default function Experiences() {
               <div className="text-zinc-300 mt-6">
                 Software development for groovever.com.
               </div>
-              <div className="flex flex-wrap gap-x-1.5 gap-y-1 items-center mt-3 text-sm mb-20 lg:w-96 w-80 ">
+              <div className="flex flex-wrap gap-x-1.5 gap-y-1 items-center mt-3 text-sm mb-20 lg:w-[30vw] w-80 ">
                 <div className="mskill">Next.js</div>
                 <div className="mskill">TypeScript</div>
                 <div className="mskill">React.js</div>
