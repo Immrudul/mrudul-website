@@ -8,8 +8,27 @@ import { LinkedInIcon } from "../../../public/icons/page";
 import { YouTubeIcon } from "../../../public/icons/page";
 import { MailIcon } from "../../../public/icons/page";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function Header() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+  const scrollToExperiences = () => {
+    const experiencesSection = document.querySelector("#experiences");
+    if (experiencesSection) {
+      const offset = 200; // Adjust this value as needed
+      const topPos =
+        experiencesSection.getBoundingClientRect().top +
+        window.scrollY -
+        offset;
+      window.scrollTo({ top: topPos, behavior: "smooth" });
+    }
+  };
+
   const [menuOpen, setMenuOpen] = useState(false);
   const [iconState, setIconState] = useState("list"); // State to track the icon state
 
@@ -24,8 +43,15 @@ export default function Header() {
         <div className="space-x-6 flex items-center">
           <span className="text-4xl text-mpurple font-bold">Immrudul</span>
           <span className="lg:flex hidden text-2xl">|</span>
-          <span className="lg:flex items-center hidden m-btn-hover">HOME</span>
-          <span className="lg:flex hidden m-btn-hover">EXPERIENCE</span>
+          <button onClick={scrollToTop} className="lg:flex hidden m-btn-hover">
+            HOME
+          </button>
+          <button
+            onClick={scrollToExperiences}
+            className="lg:flex hidden m-btn-hover"
+          >
+            EXPERIENCE
+          </button>
           <span className="lg:flex hidden m-btn-hover">PROJECTS</span>
         </div>
         <button
@@ -59,7 +85,9 @@ export default function Header() {
         <div className="bg-mgray pl-10 fixed z-50 w-full">
           <div className="space-x-4 flex w-full text-sm">
             <div className="">HOME</div>
-            <div className="">EXPERIENCE</div>
+            <button onClick={scrollToExperiences} className="">
+              EXPERIENCE
+            </button>
             <div className="">PROJECTS</div>
           </div>
           <div className="flex items-center space-x-3 text-sm py-4 ">

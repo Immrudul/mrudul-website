@@ -10,6 +10,7 @@ export default function Experiences() {
               viewBox="0 0 20 20"
               fill="currentColor"
               className="h-5 w-5 text-mpurple"
+              id="experiences"
             >
               <path
                 fillRule="evenodd"
