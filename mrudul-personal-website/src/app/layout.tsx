@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/header/page";
 import Hero from "@/components/hero/page";
 import Experiences from "@/components/experience/page";
+import ExperienceText from "@/components/experienceText/page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,10 +21,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header />
-        <Hero />
-        <Experiences />
-        {children}
+        <div className="bg-mgray">
+          <Header />
+          <Hero />
+          <Experiences />
+          {children}
+        </div>
       </body>
     </html>
   );

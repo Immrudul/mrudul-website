@@ -20,7 +20,7 @@ export default function Header() {
   const scrollToExperiences = () => {
     const experiencesSection = document.querySelector("#experiences");
     if (experiencesSection) {
-      const offset = 200; // Adjust this value as needed
+      const offset = 250; // Adjust this value as needed
       const topPos =
         experiencesSection.getBoundingClientRect().top +
         window.scrollY -
