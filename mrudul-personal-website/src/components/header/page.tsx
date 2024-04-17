@@ -20,11 +20,20 @@ export default function Header() {
   const scrollToExperiences = () => {
     const experiencesSection = document.querySelector("#experiences");
     if (experiencesSection) {
-      const offset = 250; // Adjust this value as needed
+      const offset = 300; // Adjust this value as needed
       const topPos =
         experiencesSection.getBoundingClientRect().top +
         window.scrollY -
         offset;
+      window.scrollTo({ top: topPos, behavior: "smooth" });
+    }
+  };
+  const scrollToProjects = () => {
+    const projectsSection = document.querySelector("#projects");
+    if (projectsSection) {
+      const offset = 150; // Adjust this value as needed
+      const topPos =
+        projectsSection.getBoundingClientRect().top + window.scrollY - offset;
       window.scrollTo({ top: topPos, behavior: "smooth" });
     }
   };
@@ -52,7 +61,12 @@ export default function Header() {
           >
             EXPERIENCE
           </button>
-          <span className="lg:flex hidden m-btn-hover">PROJECTS</span>
+          <button
+            onClick={scrollToProjects}
+            className="lg:flex hidden m-btn-hover"
+          >
+            PROJECTS
+          </button>
         </div>
         <button
           className="lg:hidden block outline-none transition-transform duration-300 transform lg:hover:scale-125"
@@ -84,11 +98,15 @@ export default function Header() {
       >
         <div className="bg-mgray pl-10 fixed z-50 w-full">
           <div className="space-x-4 flex w-full text-sm">
-            <div className="">HOME</div>
+            <button onClick={scrollToTop} className="">
+              HOME
+            </button>
             <button onClick={scrollToExperiences} className="">
               EXPERIENCE
             </button>
-            <div className="">PROJECTS</div>
+            <button onClick={scrollToProjects} className="">
+              PROJECTS
+            </button>
           </div>
           <div className="flex items-center space-x-3 text-sm py-4 ">
             <ResumeIcon />
