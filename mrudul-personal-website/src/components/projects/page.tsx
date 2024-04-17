@@ -1,6 +1,9 @@
 export default function Projects() {
   return (
     <div className="">
+      <div className="bg-mgray mb-10 text-3xl text-mpurple font-bold md:px-16 px-8  ">
+        Projects
+      </div>
       <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-items-center px-2 lg:gap-16">
         <div className="my-6 card sm:w-96 w-[23rem] bg-base-100 shadow-xl">
           <figure>
