@@ -5,6 +5,7 @@ import Header from "@/components/header/page";
 import Hero from "@/components/hero/page";
 import Experiences from "@/components/experience/page";
 import Projects from "@/components/projects/page";
+import Footer from "@/components/footer/page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function RootLayout({
           <Hero />
           <Experiences />
           <Projects />
+          <Footer />
           {children}
         </div>
       </body>

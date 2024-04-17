@@ -84,7 +84,6 @@ export default function Header() {
           <GitHubIcon />
           <LinkedInIcon />
           <YouTubeIcon />
-          <MailIcon />
         </div>
       </div>
 
