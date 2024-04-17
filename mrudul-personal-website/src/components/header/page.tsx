@@ -81,7 +81,6 @@ export default function Header() {
           )}
         </button>
         <div className="lg:flex hidden space-x-2 items-center">
-          <ResumeIcon />
           <GitHubIcon />
           <LinkedInIcon />
           <YouTubeIcon />
@@ -109,7 +108,6 @@ export default function Header() {
             </button>
           </div>
           <div className="flex items-center space-x-3 text-sm py-4 ">
-            <ResumeIcon />
             <GitHubIcon />
             <LinkedInIcon />
             <YouTubeIcon />
