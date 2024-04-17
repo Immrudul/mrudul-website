@@ -8,7 +8,7 @@ export default function Projects() {
         Projects
       </div>
       <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-items-center px-2 lg:gap-16">
-        <div className="my-6 card sm:w-96 w-[23rem] bg-base-100 shadow-xl">
+        <div className="my-6 card xl:w-96 w-[23rem] bg-base-100 shadow-xl">
           <figure>
             <img
               src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
@@ -24,7 +24,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="my-6 card sm:w-96 w-[23rem] bg-base-100 shadow-xl">
+        <div className="my-6 card xl:w-96 w-[23rem] bg-base-100 shadow-xl">
           <figure>
             <img
               src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
@@ -40,7 +40,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="my-6 card sm:w-96 w-[23rem] bg-base-100 shadow-xl">
+        <div className="my-6 card xl:w-96 w-[23rem] bg-base-100 shadow-xl">
           <figure>
             <img
               src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
@@ -56,7 +56,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="my-6 card sm:w-96 w-[23rem] bg-base-100 shadow-xl">
+        <div className="my-6 card xl:w-96 w-[23rem] bg-base-100 shadow-xl">
           <figure>
             <img
               src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
