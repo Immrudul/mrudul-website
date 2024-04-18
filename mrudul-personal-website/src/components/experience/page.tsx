@@ -27,7 +27,7 @@ export default function Experiences() {
               <div className="w-32 h-32 ">
                 {" "}
                 <Image
-                  src="/MelodicBlue7.65.png"
+                  src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/GrooveverLogo+Square.png"
                   alt="image"
                   width={1000}
                   height={1000}
@@ -84,7 +84,7 @@ export default function Experiences() {
               <div className="w-32 h-32 ">
                 {" "}
                 <Image
-                  src="/MelodicBlue7.65.png"
+                  src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/aRTmech+square.png"
                   alt="image"
                   width={1000}
                   height={1000}
@@ -136,7 +136,7 @@ export default function Experiences() {
               <div className="w-32 h-32 ">
                 {" "}
                 <Image
-                  src="/MelodicBlue7.65.png"
+                  src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/BestBrains+Square.png"
                   alt="image"
                   width={1000}
                   height={1000}
@@ -155,7 +155,8 @@ export default function Experiences() {
                 </div>
                 <div className="text-zinc-400 ">Oakville, Ontario</div>
                 <div className="text-zinc-300 mt-6">
-                  Employed teaching software development at BestBrains Oakville.
+                  Employed teaching foundational software development at
+                  BestBrains Oakville.
                 </div>
                 <div className="flex flex-wrap gap-x-1.5 gap-y-1 items-center mt-3 text-sm mb-20 lg:w-[30vw] w-80 ">
                   <div className="mskill">Python</div>
