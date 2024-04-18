@@ -93,29 +93,24 @@ export default function Experiences() {
               </div>
               <div className="lg:pl-10">
                 <div className="text-zinc-400 lg:mt-0 mt-4">
-                  January 2024 - April 2024
+                  November 2022 - August 2023
                 </div>
                 <div className="text-mwhite font-bold text-2xl mt-6">
-                  GroovEver
+                  aRTmech Robotics
                 </div>
                 <div className="text-mpurple font-medium text-xl">
-                  Web Developer
+                  Robotics Engineer
                 </div>
-                <div className="text-zinc-400 ">Waterloo, Ontario</div>
+                <div className="text-zinc-400 ">Toronto, Ontario</div>
                 <div className="text-zinc-300 mt-6">
-                  Software development for groovever.com.
+                  Competitive robotics with aRTmech Team 10700X.
                 </div>
                 <div className="flex flex-wrap gap-x-1.5 gap-y-1 items-center mt-3 text-sm mb-20 lg:w-[30vw] w-80 ">
-                  <div className="mskill">Next.js</div>
-                  <div className="mskill">TypeScript</div>
-                  <div className="mskill">React.js</div>
-                  <div className="mskill">Tailwind CSS</div>
-                  <div className="mskill">daisyUI</div>
-                  <div className="mskill">Bootstrap</div>
-                  <div className="mskill">HTML</div>
-                  <div className="mskill">CSS</div>
-                  <div className="mskill">Vercel</div>
-                  <div className="mskill">Node.js</div>
+                  <div className="mskill">VEX</div>
+                  <div className="mskill">C++</div>
+                  <div className="mskill">Automation</div>
+                  <div className="mskill">Hardware</div>
+                  <div className="mskill">Award x2</div>
                 </div>
               </div>
             </div>
@@ -150,86 +145,21 @@ export default function Experiences() {
               </div>
               <div className="lg:pl-10">
                 <div className="text-zinc-400 lg:mt-0 mt-4">
-                  January 2024 - April 2024
+                  September 2021 - August 2023
                 </div>
                 <div className="text-mwhite font-bold text-2xl mt-6">
-                  GroovEver
+                  BestBrains Learning Center
                 </div>
                 <div className="text-mpurple font-medium text-xl">
-                  Web Developer
+                  Software Development Instructor
                 </div>
-                <div className="text-zinc-400 ">Waterloo, Ontario</div>
+                <div className="text-zinc-400 ">Oakville, Ontario</div>
                 <div className="text-zinc-300 mt-6">
-                  Software development for groovever.com.
+                  Employed teaching software development at BestBrains Oakville.
                 </div>
                 <div className="flex flex-wrap gap-x-1.5 gap-y-1 items-center mt-3 text-sm mb-20 lg:w-[30vw] w-80 ">
-                  <div className="mskill">Next.js</div>
-                  <div className="mskill">TypeScript</div>
-                  <div className="mskill">React.js</div>
-                  <div className="mskill">Tailwind CSS</div>
-                  <div className="mskill">daisyUI</div>
-                  <div className="mskill">Bootstrap</div>
-                  <div className="mskill">HTML</div>
-                  <div className="mskill">CSS</div>
-                  <div className="mskill">Vercel</div>
-                  <div className="mskill">Node.js</div>
-                </div>
-              </div>
-            </div>
-            <hr className="bg-mwhite" />
-          </li>
-          <li>
-            <hr className="bg-mwhite" />
-            <div className="timeline-middle">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                className="h-5 w-5 text-mpurple"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </div>
-            <div className="timeline-end mb-10 -mt-12 lg:flex lg:pl-0 pl-2">
-              <div className="w-32 h-32 ">
-                {" "}
-                <Image
-                  src="/MelodicBlue7.65.png"
-                  alt="image"
-                  width={1000}
-                  height={1000}
-                  className="object-cover w-full aspect-square rounded-lg"
-                />
-              </div>
-              <div className="lg:pl-10">
-                <div className="text-zinc-400 lg:mt-0 mt-4">
-                  January 2024 - April 2024
-                </div>
-                <div className="text-mwhite font-bold text-2xl mt-6">
-                  GroovEver
-                </div>
-                <div className="text-mpurple font-medium text-xl">
-                  Web Developer
-                </div>
-                <div className="text-zinc-400 ">Waterloo, Ontario</div>
-                <div className="text-zinc-300 mt-6">
-                  Software development for groovever.com.
-                </div>
-                <div className="flex flex-wrap gap-x-1.5 gap-y-1 items-center mt-3 text-sm mb-20 lg:w-[30vw] w-80 ">
-                  <div className="mskill">Next.js</div>
-                  <div className="mskill">TypeScript</div>
-                  <div className="mskill">React.js</div>
-                  <div className="mskill">Tailwind CSS</div>
-                  <div className="mskill">daisyUI</div>
-                  <div className="mskill">Bootstrap</div>
-                  <div className="mskill">HTML</div>
-                  <div className="mskill">CSS</div>
-                  <div className="mskill">Vercel</div>
-                  <div className="mskill">Node.js</div>
+                  <div className="mskill">Python</div>
+                  <div className="mskill">Teaching</div>
                 </div>
               </div>
             </div>
