@@ -20,9 +20,7 @@ export default function Projects() {
             <h2 className="card-title">Personal Website</h2>
             <p>The website that you're currently on right now!</p>
             <div className="card-actions justify-end">
-              <button className="bg-mpurple text-black py-3 px-4 rounded-lg">
-                GitHub
-              </button>
+              <button className="mprojectbtn">GitHub</button>
             </div>
           </div>
         </div>
@@ -42,7 +40,7 @@ export default function Projects() {
               Slots and War.
             </p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">GitHub</button>
+              <button className="mprojectbtn">GitHub</button>
             </div>
           </div>
         </div>
@@ -81,7 +79,7 @@ export default function Projects() {
               impact of jumping vs not jumping when shooting the basketball!
             </p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">YouTube</button>
+              <button className="mprojectbtn">YouTube</button>
             </div>
           </div>
         </div>

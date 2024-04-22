@@ -29,6 +29,16 @@
   .m-btn-hover {
     transition: ease-in-out 200ms;
   }
+
+  .mprojectbtn:hover {
+    background-color: #826ded;
+    padding: 0.75rem 1rem;
+    scale: 1.05;
+  }
+
+  .herobutton:hover {
+    scale: 1.05;
+  }
 }
 
 .mskill {
@@ -37,4 +47,23 @@
   border-radius: 0.5rem;
   padding: 0.25rem;
   color: #373638;
+}
+
+.mprojectbtn {
+  background-color: #9c89ff;
+  color: black;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  transition: ease-in-out 150ms;
+}
+
+.herobutton {
+  background-color: #9c89ff;
+  display: flex;
+  align-items: center;
+  color: #373638;
+  transition: ease-in-out 150ms;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  width: fit-content;
 }

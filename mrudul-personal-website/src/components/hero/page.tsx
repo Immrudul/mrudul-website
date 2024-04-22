@@ -63,25 +63,23 @@ export default function Hero() {
             world of computers and arts.
           </div>
           <div className=" lg:flex lg:space-x-4 space-y-2 lg:space-y-0 xl:pl-32 lg:pl-24 md:pl-16 sm:pl-10 pl-6 xl:text-xl lg:text-lg text-base mt-4 w-auto pr-6 sm:pr-0 cursor-pointer">
-            <div className="flex items-center bg-mpurple py-1 px-2 rounded-lg w-fit hover:scale-105 transition-all">
-              <button className="text-mgray">
+            <div className="herobutton">
+              <button className="">
                 <GitHubIcon />
               </button>
-              <span className="pl-2 text-mgray">GitHub</span>
+              <span className="pl-2 ">GitHub</span>
             </div>
-            <div className="flex items-center bg-mpurple py-1 px-2 rounded-lg w-fit hover:scale-105 transition-all">
-              <button className="text-mgray">
+            <div className="herobutton">
+              <button className="">
                 <LinkedInIcon />
               </button>
-              <span className="pl-2 text-mgray">LinkedIn</span>
+              <span className="pl-2 ">LinkedIn</span>
             </div>
-            <div className="flex items-center bg-mpurple py-1 px-2 rounded-lg w-fit hover:scale-105 transition-all">
-              <button className="text-mgray">
+            <div className="herobutton">
+              <button className="">
                 <MailIcon />
               </button>
-              <span className="pl-2 text-mgray">
-                mrudul.suresh@uwaterloo.ca
-              </span>
+              <span className="pl-2 ">mrudul.suresh@uwaterloo.ca</span>
             </div>
           </div>
         </div>
