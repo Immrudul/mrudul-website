@@ -64,21 +64,25 @@ export default function Hero() {
             world of computers and arts.
           </div>
           <div className=" lg:flex lg:space-x-4 space-y-2 lg:space-y-0 xl:pl-32 lg:pl-24 md:pl-16 sm:pl-10 pl-6 xl:text-xl lg:text-lg text-base mt-4 w-auto pr-6 sm:pr-0 cursor-pointer">
-            <Link target="_blank" href="https://github.com/Immrudul">
-              <div className="herobutton">
-                <GitHubIcon />
-                <span className="pl-2 ">GitHub</span>
-              </div>
-            </Link>
-            <Link
-              target="_blank"
-              href="https://www.linkedin.com/in/mrudul-suresh"
-            >
-              <div className="herobutton">
-                <LinkedInIcon />
-                <span className="pl-2 ">LinkedIn</span>
-              </div>
-            </Link>
+            <div>
+              <Link target="_blank" href="https://github.com/Immrudul">
+                <div className="herobutton">
+                  <GitHubIcon />
+                  <span className="pl-2 ">GitHub</span>
+                </div>
+              </Link>
+            </div>
+            <div>
+              <Link
+                target="_blank"
+                href="https://www.linkedin.com/in/mrudul-suresh"
+              >
+                <div className="herobutton">
+                  <LinkedInIcon />
+                  <span className="pl-2 ">LinkedIn</span>
+                </div>
+              </Link>
+            </div>
             <div className="herobutton">
               <button className="">
                 <MailIcon />
