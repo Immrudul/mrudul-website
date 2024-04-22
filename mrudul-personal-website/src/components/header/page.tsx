@@ -2,13 +2,11 @@
 import { useState } from "react";
 import { ListIcon } from "../../../public/icons/page";
 import { XIcon } from "../../../public/icons/page";
-import { ResumeIcon } from "../../../public/icons/page";
 import { GitHubIcon } from "../../../public/icons/page";
 import { LinkedInIcon } from "../../../public/icons/page";
 import { YouTubeIcon } from "../../../public/icons/page";
 import { MailIcon } from "../../../public/icons/page";
 import Link from "next/link";
-import { useRouter } from "next/router";
 
 export default function Header() {
   const scrollToTop = () => {
@@ -81,9 +79,18 @@ export default function Header() {
           )}
         </button>
         <div className="lg:flex hidden space-x-2 items-center">
-          <GitHubIcon />
-          <LinkedInIcon />
-          <YouTubeIcon />
+          <Link target="_blank" href="https://github.com/Immrudul">
+            <GitHubIcon />
+          </Link>
+          <Link
+            target="_blank"
+            href="https://www.linkedin.com/in/mrudul-suresh"
+          >
+            <LinkedInIcon />
+          </Link>
+          <Link target="_blank" href="https://www.youtube.com/@immrudul">
+            <YouTubeIcon />
+          </Link>
         </div>
       </div>
 
@@ -107,10 +114,18 @@ export default function Header() {
             </button>
           </div>
           <div className="flex items-center space-x-3 text-sm py-4 ">
-            <GitHubIcon />
-            <LinkedInIcon />
-            <YouTubeIcon />
-            <MailIcon />
+            <Link target="_blank" href="https://github.com/Immrudul">
+              <GitHubIcon />
+            </Link>
+            <Link
+              target="_blank"
+              href="https://www.linkedin.com/in/mrudul-suresh"
+            >
+              <LinkedInIcon />
+            </Link>
+            <Link target="_blank" href="https://www.youtube.com/@immrudul">
+              <YouTubeIcon />
+            </Link>
           </div>
         </div>
       </div>

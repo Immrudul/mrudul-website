@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const GitHubIcon = () => {
   return (
@@ -63,18 +64,21 @@ export default function Hero() {
             world of computers and arts.
           </div>
           <div className=" lg:flex lg:space-x-4 space-y-2 lg:space-y-0 xl:pl-32 lg:pl-24 md:pl-16 sm:pl-10 pl-6 xl:text-xl lg:text-lg text-base mt-4 w-auto pr-6 sm:pr-0 cursor-pointer">
-            <div className="herobutton">
-              <button className="">
+            <Link target="_blank" href="https://github.com/Immrudul">
+              <div className="herobutton">
                 <GitHubIcon />
-              </button>
-              <span className="pl-2 ">GitHub</span>
-            </div>
-            <div className="herobutton">
-              <button className="">
+                <span className="pl-2 ">GitHub</span>
+              </div>
+            </Link>
+            <Link
+              target="_blank"
+              href="https://www.linkedin.com/in/mrudul-suresh"
+            >
+              <div className="herobutton">
                 <LinkedInIcon />
-              </button>
-              <span className="pl-2 ">LinkedIn</span>
-            </div>
+                <span className="pl-2 ">LinkedIn</span>
+              </div>
+            </Link>
             <div className="herobutton">
               <button className="">
                 <MailIcon />

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Projects() {
   return (
     <div className="">
@@ -23,7 +25,12 @@ export default function Projects() {
               Next.js, Typescript, Tailwind CSS, React, and DasiyUI.
             </p>
             <div className="card-actions justify-end">
-              <button className="mprojectbtn">GitHub</button>
+              <Link
+                target="_blank"
+                href="https://github.com/Immrudul/mrudul-website"
+              >
+                <button className="mprojectbtn">GitHub</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -43,7 +50,12 @@ export default function Projects() {
               Slots and War.
             </p>
             <div className="card-actions justify-end">
-              <button className="mprojectbtn">GitHub</button>
+              <Link
+                target="_blank"
+                href="https://github.com/Immrudul/Mrudul-Suresh-Coding-Projects"
+              >
+                <button className="mprojectbtn">GitHub</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -86,7 +98,12 @@ export default function Projects() {
               impact of jumping vs not jumping when shooting the basketball!
             </p>
             <div className="card-actions justify-end">
-              <button className="mprojectbtn">YouTube</button>
+              <Link
+                target="_blank"
+                href="https://www.youtube.com/watch?v=R6m5vMRYv-0"
+              >
+                <button className="mprojectbtn">YouTube</button>
+              </Link>
             </div>
           </div>
         </div>
