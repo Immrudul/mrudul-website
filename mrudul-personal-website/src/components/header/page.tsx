@@ -5,9 +5,7 @@ import { XIcon } from "../../../public/icons/page";
 import { GitHubIcon } from "../../../public/icons/page";
 import { LinkedInIcon } from "../../../public/icons/page";
 import { YouTubeIcon } from "../../../public/icons/page";
-import { MailIcon } from "../../../public/icons/page";
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Header() {
   const scrollToTop = () => {
@@ -19,7 +17,7 @@ export default function Header() {
   const scrollToExperiences = () => {
     const experiencesSection = document.querySelector("#experiences");
     if (experiencesSection) {
-      const offset = 300; // Adjust this value as needed
+      const offset = 320; // Adjust this value as needed
       const topPos =
         experiencesSection.getBoundingClientRect().top +
         window.scrollY -
@@ -30,7 +28,7 @@ export default function Header() {
   const scrollToProjects = () => {
     const projectsSection = document.querySelector("#projects");
     if (projectsSection) {
-      const offset = 150; // Adjust this value as needed
+      const offset = 190; // Adjust this value as needed
       const topPos =
         projectsSection.getBoundingClientRect().top + window.scrollY - offset;
       window.scrollTo({ top: topPos, behavior: "smooth" });
