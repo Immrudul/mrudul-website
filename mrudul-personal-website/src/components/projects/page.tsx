@@ -13,7 +13,7 @@ export default function Projects() {
         <div className="my-6 card xl:w-96 w-[23rem] bg-zinc-800 shadow-xl">
           <figure>
             <img
-              src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+              src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/Website+Thumbnail.png"
               alt="Shoes"
               className="aspect-video"
             />

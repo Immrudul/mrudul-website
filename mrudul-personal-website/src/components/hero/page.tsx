@@ -54,14 +54,14 @@ export default function Hero() {
   return (
     <div className="bg-mgray ">
       <div className="h-[110vh] pb-[10vh] flex items-center">
-        <div className="flex flex-col ">
+        <div className=" lg:w-4/5 flex flex-col ">
           <div className="xl:text-5xl lg:text-4xl text-2xl font-bold text-mwhite xl:pl-32 lg:pl-24 md:pl-16 sm:pl-10 pl-6">
             Hi! Im Mrudul Suresh,
           </div>
           <div className=" xl:pl-32 lg:pl-24 md:pl-16 sm:pl-10 pl-6 xl:text-xl lg:text-lg text-base text-mwhite mt-4 w-auto pr-6 sm:pr-0">
-            I am a 2A CS student at the University of Waterloo, specializing in
-            HCI and Computational Fine Arts. I dream to solve problems in the
-            world of computers and arts.
+            I am a Computer Engineering student at the University of Waterloo in
+            my 1B term! Please feel free to take a look at my portfolio and
+            reach out about anything!
           </div>
           <div className=" lg:flex lg:space-x-4 space-y-2 lg:space-y-0 xl:pl-32 lg:pl-24 md:pl-16 sm:pl-10 pl-6 xl:text-xl lg:text-lg text-base mt-4 w-auto pr-6 sm:pr-0 cursor-pointer">
             <div>
@@ -84,7 +84,7 @@ export default function Hero() {
               </Link>
             </div>
             <div className="herobutton">
-              <button className="">
+              <button>
                 <MailIcon />
               </button>
               <span className="pl-2 ">mrudul.suresh@uwaterloo.ca</span>
@@ -93,9 +93,9 @@ export default function Hero() {
         </div>
         <div className="hidden sm:flex mx-[10%]">
           <Image
-            src="/Lovesick.png"
+            src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/Professional+PFP.jpg"
             alt="UWSD"
-            className="object-cover w-full aspect-square"
+            className="object-cover w-full aspect-square rounded-full"
             width={600}
             height={600}
           />

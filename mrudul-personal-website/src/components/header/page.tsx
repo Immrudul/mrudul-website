@@ -7,6 +7,7 @@ import { LinkedInIcon } from "../../../public/icons/page";
 import { YouTubeIcon } from "../../../public/icons/page";
 import { MailIcon } from "../../../public/icons/page";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Header() {
   const scrollToTop = () => {
