@@ -56,7 +56,7 @@ export default function Hero() {
       <div className="h-[110vh] pb-[10vh] flex items-center">
         <div className=" lg:w-4/5 flex flex-col ">
           <div className="xl:text-5xl lg:text-4xl text-2xl font-bold text-mwhite xl:pl-32 lg:pl-24 md:pl-16 sm:pl-10 pl-6">
-            Hi! Im Mrudul Suresh,
+            Hi! I&apos;m Mrudul Suresh,
           </div>
           <div className=" xl:pl-32 lg:pl-24 md:pl-16 sm:pl-10 pl-6 xl:text-xl lg:text-lg text-base text-mwhite mt-4 w-auto pr-6 sm:pr-0">
             I am a Computer Engineering student at the University of Waterloo in
