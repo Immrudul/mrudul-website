@@ -28,7 +28,7 @@ export default function Experiences() {
                 {" "}
                 <Image
                   src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/GrooveverLogo+Square.png"
-                  alt="image"
+                  alt="groovever logo"
                   width={1000}
                   height={1000}
                   className="object-cover w-full aspect-square rounded-lg"
@@ -85,7 +85,7 @@ export default function Experiences() {
                 {" "}
                 <Image
                   src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/aRTmech+square.png"
-                  alt="image"
+                  alt="artmech logo"
                   width={1000}
                   height={1000}
                   className="object-cover w-full aspect-square rounded-lg"
@@ -134,10 +134,9 @@ export default function Experiences() {
             </div>
             <div className="timeline-end mb-10 -mt-12 lg:flex lg:pl-0 pl-2">
               <div className="w-32 h-32 ">
-                {" "}
                 <Image
                   src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/BestBrains+Square.png"
-                  alt="image"
+                  alt="best brains logo"
                   width={1000}
                   height={1000}
                   className="object-cover w-full aspect-square rounded-lg"

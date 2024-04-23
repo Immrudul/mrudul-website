@@ -94,7 +94,7 @@ export default function Hero() {
         <div className="hidden sm:flex mx-[10%]">
           <Image
             src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/Professional+PFP.jpg"
-            alt="UWSD"
+            alt="mrudul photo"
             className="object-cover w-full aspect-square rounded-full"
             width={600}
             height={600}

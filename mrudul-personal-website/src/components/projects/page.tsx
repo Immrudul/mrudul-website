@@ -15,7 +15,7 @@ export default function Projects() {
           <figure>
             <Image
               src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/Website+Thumbnail.png"
-              alt="Shoes"
+              alt="website thumbnail"
               className="aspect-video"
               width={1000}
               height={1000}
@@ -41,7 +41,7 @@ export default function Projects() {
           <figure>
             <Image
               src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/CaSino%2B%2B+S3.png"
-              alt="Shoes"
+              alt="casino++ thumnail"
               className="aspect-video"
               width={1000}
               height={1000}
@@ -68,7 +68,7 @@ export default function Projects() {
           <figure>
             <Image
               src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/NEW+Electric+Model+S3.jpg"
-              alt="Shoes"
+              alt="electric car model thumbnail"
               className="aspect-video"
               width={1000}
               height={1000}
@@ -92,7 +92,7 @@ export default function Projects() {
           <figure>
             <Image
               src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/Ball+s3+Final.jpg"
-              alt="Shoes"
+              alt="physics experiment thumbnail"
               className="aspect-video"
               width={1000}
               height={1000}
