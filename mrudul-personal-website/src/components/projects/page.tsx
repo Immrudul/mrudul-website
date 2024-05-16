@@ -40,30 +40,34 @@ export default function Projects() {
         <div className="my-6 card xl:w-96 w-[23rem] bg-zinc-800 shadow-xl">
           <figure>
             <Image
-              src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/CaSino%2B%2B+S3.png"
-              alt="casino++ thumnail"
+              src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/API+Thumbnail.png"
+              alt="api thumbnail"
               className="aspect-video"
               width={1000}
               height={1000}
             />
           </figure>
-          <div className="card-body ">
-            <h2 className="card-title text-mwhite">CaSino++ </h2>
-            <p className="text-mwhite">
-              Designed a virtual casino program using C++ involving software for
-              games such as Blackjack, Binary Slots, Decimal Slots, Hexadecimal
-              Slots and War.
+          <div className="card-body">
+            <h2 className="card-title text-mwhite">
+              Business Stores and Items RESTful API
+            </h2>
+            <p className=" text-mwhite">
+              A RESTful API using Flask, Python and Marshmallow to simulate
+              business operations like managing stores, items, and tags! Also
+              used PostgreSQL for the database, Insomnia and Postman for
+              testing, and Swagger/OpenAPI for endpoint documentation!
             </p>
             <div className="card-actions justify-end">
               <Link
                 target="_blank"
-                href="https://github.com/Immrudul/Mrudul-Suresh-Coding-Projects"
+                href="https://github.com/Immrudul/Stores-RESTful-API-Flask"
               >
                 <button className="mprojectbtn">GitHub</button>
               </Link>
             </div>
           </div>
         </div>
+
         <div className="my-6 card xl:w-96 w-[23rem] bg-zinc-800 shadow-xl">
           <figure>
             <Image
@@ -88,11 +92,12 @@ export default function Projects() {
             </div>
           </div>
         </div>
+
         <div className="my-6 card xl:w-96 w-[23rem] bg-zinc-800 shadow-xl">
           <figure>
             <Image
-              src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/Ball+s3+Final.jpg"
-              alt="physics experiment thumbnail"
+              src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/front+end+thumbnail.png"
+              alt="everything about front end video thumbnail"
               className="aspect-video"
               width={1000}
               height={1000}
@@ -100,18 +105,48 @@ export default function Projects() {
           </figure>
           <div className="card-body">
             <h2 className="card-title text-mwhite">
-              Basketball Physics Experiment
+              EVERYTHING you need to know for front end development
             </h2>
             <p className=" text-mwhite">
-              Conducted an experiement focused on kinematics to determine the
-              impact of jumping vs not jumping when shooting the basketball!
+              Here is a fun and clear video I made that serves as the perfect
+              guide to start learning and working on front end! When I first
+              started, I remember how lost I felt and to help others that are in
+              that same position, I made this video to try and help!
             </p>
             <div className="card-actions justify-end">
               <Link
                 target="_blank"
-                href="https://www.youtube.com/watch?v=R6m5vMRYv-0"
+                href="https://www.youtube.com/watch?v=5aN6b0BrA_c"
               >
                 <button className="mprojectbtn">YouTube</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="my-6 card xl:w-96 w-[23rem] bg-zinc-800 shadow-xl">
+          <figure>
+            <Image
+              src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/CaSino%2B%2B+S3.png"
+              alt="casino++ thumnail"
+              className="aspect-video"
+              width={1000}
+              height={1000}
+            />
+          </figure>
+          <div className="card-body ">
+            <h2 className="card-title text-mwhite">CaSino++ </h2>
+            <p className="text-mwhite">
+              Designed a virtual casino program using C++ involving software for
+              games such as Blackjack, Binary Slots, Decimal Slots, Hexadecimal
+              Slots and War.
+            </p>
+            <div className="card-actions justify-end">
+              <Link
+                target="_blank"
+                href="https://github.com/Immrudul/Mrudul-Suresh-Coding-Projects"
+              >
+                <button className="mprojectbtn">GitHub</button>
               </Link>
             </div>
           </div>
