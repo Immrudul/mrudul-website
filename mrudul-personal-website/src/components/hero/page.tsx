@@ -84,14 +84,16 @@ export default function Hero() {
               </Link>
             </div>
 
-            <Link href="mailto:m22sures@uwaterloo.ca" target="_blank">
-              <div className="herobutton">
-                <button>
-                  <MailIcon />
-                </button>
-                <span className="pl-2 ">mrudul.suresh@uwaterloo.ca</span>
-              </div>
-            </Link>
+            <div>
+              <Link href="mailto:m22sures@uwaterloo.ca" target="_blank">
+                <div className="herobutton">
+                  <button>
+                    <MailIcon />
+                  </button>
+                  <span className="pl-2 ">mrudul.suresh@uwaterloo.ca</span>
+                </div>
+              </Link>
+            </div>
           </div>
         </div>
         <div className="hidden sm:flex mx-[10%]">
