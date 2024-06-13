@@ -1,10 +1,11 @@
-import Image from "next/image";
-import Header from "@/components/header/page";
+import Head from "next/head";
 
-export default function Home() {
+export default function Canonical() {
   return (
     <div>
-      <div></div>
+      <Head>
+        <link rel="canonical" href="https://mrudulsuresh.com" key="canonical" />
+      </Head>
     </div>
   );
 }
