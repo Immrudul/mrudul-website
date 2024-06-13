@@ -81,10 +81,7 @@ export default function Header() {
           <Link target="_blank" href="https://github.com/Immrudul">
             <GitHubIcon />
           </Link>
-          <Link
-            target="_blank"
-            href="https://www.linkedin.com/in/mrudul-suresh"
-          >
+          <Link target="_blank" href="https://ca.linkedin.com/in/mrudulsuresh">
             <LinkedInIcon />
           </Link>
           <Link target="_blank" href="https://www.youtube.com/@immrudul">
@@ -118,7 +115,7 @@ export default function Header() {
             </Link>
             <Link
               target="_blank"
-              href="https://www.linkedin.com/in/mrudul-suresh"
+              href="https://ca.linkedin.com/in/mrudulsuresh"
             >
               <LinkedInIcon />
             </Link>

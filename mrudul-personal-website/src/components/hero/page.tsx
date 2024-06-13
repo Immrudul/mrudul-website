@@ -75,7 +75,7 @@ export default function Hero() {
             <div>
               <Link
                 target="_blank"
-                href="https://www.linkedin.com/in/mrudul-suresh"
+                href="https://ca.linkedin.com/in/mrudulsuresh"
               >
                 <div className="herobutton">
                   <LinkedInIcon />
