@@ -41,7 +41,7 @@ export default function Experiences() {
                   </span>
                 </div>
                 <div className="text-mwhite font-bold text-2xl mt-6">
-                  ConSALT Inc
+                  ConSALT Inc.
                 </div>
                 <div className="text-mpurple font-medium text-xl">
                   Full Stack Developer
