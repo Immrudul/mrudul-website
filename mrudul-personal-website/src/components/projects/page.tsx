@@ -53,8 +53,8 @@ export default function Projects() {
             </h2>
             <p className=" text-mwhite">
               A RESTful API using Flask, Python and Marshmallow to simulate
-              business operations like managing stores, items, and tags! Also
-              used PostgreSQL for the database, Insomnia and Postman for
+              retail business operations like managing stores, items, and tags!
+              Also used PostgreSQL for the database, Insomnia and Postman for
               testing, and Swagger/OpenAPI for endpoint documentation!
             </p>
             <div className="card-actions justify-end">
@@ -119,6 +119,36 @@ export default function Projects() {
                 href="https://www.youtube.com/watch?v=5aN6b0BrA_c"
               >
                 <button className="mprojectbtn">YouTube</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="my-6 card xl:w-96 w-[23rem] bg-zinc-800 shadow-xl">
+          <figure>
+            <Image
+              src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/AI+and+Music+Website+Image.png"
+              alt="ieee conference paper thumbnail"
+              className="aspect-video"
+              width={1000}
+              height={1000}
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title text-mwhite">
+              IEEE Conference Paper - AI and Music Centered Media Platforms
+            </h2>
+            <p className=" text-mwhite">
+              An IEEE conference paper that I wrote about a blend of 2 things I
+              love and am fascinated by, AI and music! Contains citaions as
+              well!
+            </p>
+            <div className="card-actions justify-end">
+              <Link
+                target="_blank"
+                href="https://docs.google.com/document/d/1t5YPv26D6yEfiuUvM9MjQW58Fo2jLhVrcl-dJmcpWkc/edit?usp=sharing"
+              >
+                <button className="mprojectbtn">Docs</button>
               </Link>
             </div>
           </div>
