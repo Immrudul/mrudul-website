@@ -140,8 +140,8 @@ export default function Projects() {
             </h2>
             <p className=" text-mwhite">
               An IEEE conference paper that I wrote about a blend of 2 things I
-              love and am fascinated by, AI and music! Contains citaions as
-              well!
+              love and am fascinated by, AI and music! Contains full citations
+              as well!
             </p>
             <div className="card-actions justify-end">
               <Link
