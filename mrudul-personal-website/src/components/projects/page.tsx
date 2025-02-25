@@ -136,12 +136,13 @@ export default function Projects() {
           </figure>
           <div className="card-body">
             <h2 className="card-title text-mwhite">
-              IEEE Conference Paper - AI and Music Centered Media Platforms
+              IEEE Style Conference Paper - AI and Music Centered Media
+              Platforms
             </h2>
             <p className=" text-mwhite">
-              An IEEE conference paper that I wrote about a blend of 2 things I
-              love and am fascinated by, AI and music! Contains full citations
-              as well!
+              An IEEE style conference paper that I wrote about a blend of 2
+              things I love and am fascinated by, AI and music! Contains full
+              citations as well.
             </p>
             <div className="card-actions justify-end">
               <Link
