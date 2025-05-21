@@ -3,7 +3,7 @@ export default function Experiences() {
   return (
     <div>
       <div className="bg-mgray mb-24 text-3xl text-mpurple font-bold md:px-16 px-8  ">
-        Experiences
+        Experience
       </div>
       <div className="bg-mgray">
         <ul className="timeline timeline-snap-icon timeline-compact timeline-vertical md:px-16 px-4">
@@ -15,6 +15,56 @@ export default function Experiences() {
                 fill="currentColor"
                 className="h-5 w-5 text-mpurple"
                 id="experiences"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </div>
+            <div className="timeline-end mb-10 -mt-12 lg:flex lg:pl-0 pl-2">
+              <div className="w-32 h-32 ">
+                {" "}
+                <Image
+                  src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/plato2.png"
+                  alt="plato logo"
+                  width={1000}
+                  height={1000}
+                  className="object-cover w-full aspect-square rounded-lg"
+                />
+              </div>
+              <div className="lg:pl-10">
+                <div className="lg:mt-0 mt-4">
+                  <span className="text-zinc-400">
+                    May 2025 - Present
+                  </span>
+                </div>
+                <div className="text-mwhite font-bold text-2xl mt-6">
+                  Plato
+                </div>
+                <div className="text-mpurple font-medium text-xl">
+                  Software Engineering Intern
+                </div>
+                <div className="text-zinc-400 ">San Francisco, California</div>
+                <div className="text-zinc-300 mt-6">
+                  Training and evluations for AI agents on plato.so.
+                </div>
+                <div className="flex flex-wrap gap-x-1.5 gap-y-1 items-center mt-3 text-sm mb-20 lg:w-[30vw] w-80 ">
+                  <div className="mskill">Present</div>
+                </div>
+              </div>
+            </div>
+            <hr className="bg-mwhite" />
+          </li>
+          <li>
+            <hr className="bg-mwhite" />
+            <div className="timeline-middle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="h-5 w-5 text-mpurple"
               >
                 <path
                   fillRule="evenodd"

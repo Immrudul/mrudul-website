@@ -59,8 +59,8 @@ export default function Hero() {
             Hi! I&apos;m Mrudul Suresh,
           </div>
           <h1 className=" xl:pl-32 lg:pl-24 md:pl-16 sm:pl-10 pl-6 xl:text-xl lg:text-lg text-base text-mwhite mt-4 w-auto pr-6 sm:pr-0">
-            I am a Computer Engineering student at the University of Waterloo
-            currently in my 2A term! Please feel free to take a look at my
+            I am a second year Computer Engineering student at the University of Waterloo!
+            Please feel free to take a look at my
             portfolio and reach out about anything!
           </h1>
           <div className=" lg:flex lg:space-x-4 space-y-2 lg:space-y-0 xl:pl-32 lg:pl-24 md:pl-16 sm:pl-10 pl-6 xl:text-xl lg:text-lg text-base mt-4 w-auto pr-6 sm:pr-0 cursor-pointer">
