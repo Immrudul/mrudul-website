@@ -1,6 +1,7 @@
 import { GitHubIcon } from "../../../public/icons/page";
 import { LinkedInIcon } from "../../../public/icons/page";
 import { YouTubeIcon } from "../../../public/icons/page";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -16,9 +17,15 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex space-x-2 text-mwhite">
-          <GitHubIcon />
-          <LinkedInIcon />
-          <YouTubeIcon />
+          <Link target="_blank" href="https://github.com/Immrudul">
+            <GitHubIcon />
+          </Link>
+          <Link target="_blank" href="https://ca.linkedin.com/in/mrudulsuresh">
+            <LinkedInIcon />
+          </Link>
+          <Link target="_blank" href="https://www.youtube.com/@immrudul">
+            <YouTubeIcon />
+          </Link>
         </div>
       </div>
     </div>
