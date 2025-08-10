@@ -105,7 +105,7 @@ export default function Projects() {
               Cube BLD using the Old Pochmann Method!
             </p>
             <div className="card-actions justify-end">
-              <Link target="_blank" href="https://github.com/Immrudul">
+              <Link target="_blank" href="https://github.com/Immrudul/pochmann-ai">
                 <div className="herobutton">
                   <GitHubIcon />
                   <span className="pl-2 ">GitHub</span>
