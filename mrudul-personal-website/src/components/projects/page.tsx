@@ -1,6 +1,54 @@
 import Link from "next/link";
 import Image from "next/image";
 
+const GitHubIcon = () => {
+  return (
+    <div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="25"
+        height="25"
+        fill="currentColor"
+        className="bi bi-github "
+        viewBox="0 0 16 16"
+      >
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+      </svg>
+    </div>
+  );
+};
+
+export function DocsLogo() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="25"
+      height="25"
+      fill="currentColor"
+      className="bi bi-file-earmark-text"
+      viewBox="0 0 16 16"
+    >
+      <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5"/>
+      <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z"/>
+    </svg>
+  );
+}
+
+export function YouTubeIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="25"
+      height="25"
+      fill="currentColor"
+      className="bi bi-youtube"
+      viewBox="0 0 16 16"
+    >
+      <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
+    </svg>
+  );
+}
+
 export default function Projects() {
   return (
     <div>
@@ -28,11 +76,11 @@ export default function Projects() {
               using Next.js, Typescript, Tailwind CSS, React, and DasiyUI.
             </p>
             <div className="card-actions justify-end">
-              <Link
-                target="_blank"
-                href="https://github.com/Immrudul/mrudul-website"
-              >
-                <button className="mprojectbtn">GitHub</button>
+              <Link target="_blank" href="https://github.com/Immrudul/mrudul-website">
+                <div className="herobutton">
+                  <GitHubIcon />
+                  <span className="pl-2 ">GitHub</span>
+                </div>
               </Link>
             </div>
           </div>
@@ -49,21 +97,30 @@ export default function Projects() {
           </figure>
           <div className="card-body">
             <h2 className="card-title text-mwhite">
-              AI Pochmann Rubik's Cube Solver
+              AI BLD Pochmann Rubik's Cube Solver
             </h2>
             <p className=" text-mwhite">
-              An application I made that is an AI-assisted training tool designed
-              to help people learn and master solving the Rubik&apos;s Cube BLD
-              using the Old Pochmann Method. It combines computer vision,
-              machine learning, and cubic algorithms into a single interactive
-              system that teaches, guides, and assists the solver!
+              An application I made that combines computer vision, machine learning, and cubic algorithms
+              into a single interactive system designed to help people learn and master solving the Rubik&apos;s
+              Cube BLD using the Old Pochmann Method!
             </p>
+            <div className="card-actions justify-end">
+              <Link target="_blank" href="https://github.com/Immrudul">
+                <div className="herobutton">
+                  <GitHubIcon />
+                  <span className="pl-2 ">GitHub</span>
+                </div>
+              </Link>
+            </div>
             <div className="card-actions justify-end">
               <Link
                 target="_blank"
-                href="https://github.com/Immrudul/pochmann-ai"
+                href="https://www.youtube.com/watch?v=RAdtPTHROvc"
               >
-                <button className="mprojectbtn">GitHub</button>
+                <div className="herobutton">
+                  <YouTubeIcon />
+                  <span className="pl-2 ">YouTube</span>
+                </div>
               </Link>
             </div>
           </div>
@@ -112,14 +169,17 @@ export default function Projects() {
               Here is a fun and clear video I made that serves as the perfect
               guide to start learning and working on front end! When I first
               started, I remember how lost I felt and to help others that are in
-              that same position, I made this video to try and help!
+              that same position, I made this video to try and hopefully help!
             </p>
             <div className="card-actions justify-end">
               <Link
                 target="_blank"
                 href="https://www.youtube.com/watch?v=5aN6b0BrA_c"
               >
-                <button className="mprojectbtn">YouTube</button>
+                <div className="herobutton">
+                  <YouTubeIcon />
+                  <span className="pl-2 ">YouTube</span>
+                </div>
               </Link>
             </div>
           </div>
@@ -150,7 +210,10 @@ export default function Projects() {
                 target="_blank"
                 href="https://docs.google.com/document/d/1t5YPv26D6yEfiuUvM9MjQW58Fo2jLhVrcl-dJmcpWkc/edit?usp=sharing"
               >
-                <button className="mprojectbtn">Docs</button>
+                <div className="herobutton">
+                  <DocsLogo />
+                  <span className="pl-2 ">Docs</span>
+                </div>
               </Link>
             </div>
           </div>
@@ -174,11 +237,11 @@ export default function Projects() {
               Slots and War.
             </p>
             <div className="card-actions justify-end">
-              <Link
-                target="_blank"
-                href="https://github.com/Immrudul/Mrudul-Suresh-Coding-Projects"
-              >
-                <button className="mprojectbtn">GitHub</button>
+              <Link target="_blank" href="https://github.com/Immrudul/Mrudul-Suresh-Coding-Projects">
+                <div className="herobutton">
+                  <GitHubIcon />
+                  <span className="pl-2 ">GitHub</span>
+                </div>
               </Link>
             </div>
           </div>
