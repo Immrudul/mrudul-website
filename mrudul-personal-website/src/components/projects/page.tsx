@@ -89,7 +89,7 @@ export default function Projects() {
           <figure>
             <Image
               src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/thumbnailjpeg.jpg"
-              alt="ai pochmann rubik's cube solver thumbnail"
+              alt="ai pochmann rubik&apos;s cube solver thumbnail"
               className="aspect-video"
               width={1000}
               height={1000}
@@ -97,7 +97,7 @@ export default function Projects() {
           </figure>
           <div className="card-body">
             <h2 className="card-title text-mwhite">
-              AI BLD Pochmann Rubik's Cube Solver
+              AI BLD Pochmann Rubik&apos;s Cube Solver
             </h2>
             <p className=" text-mwhite">
               An application I made that combines computer vision, machine learning, and cubic algorithms
