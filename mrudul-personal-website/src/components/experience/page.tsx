@@ -96,7 +96,7 @@ export default function Experiences() {
                 <div className="text-mpurple font-medium text-xl">
                   Full Stack Developer
                 </div>
-                <div className="text-zinc-400 ">Hamilton, Ontario</div>
+                <div className="text-zinc-400 ">Vancouver, British Columbia</div>
                 <div className="text-zinc-300 mt-6">
                   SaaS software development at ConSALT Inc.
                 </div>
