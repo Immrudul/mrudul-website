@@ -40,8 +40,8 @@ export default function Projects() {
         <div className="my-6 card xl:w-96 w-[23rem] bg-zinc-800 shadow-xl">
           <figure>
             <Image
-              src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/API+Thumbnail.png"
-              alt="api thumbnail"
+              src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/thumbnailjpeg.jpg"
+              alt="ai pochmann rubik's cube solver thumbnail"
               className="aspect-video"
               width={1000}
               height={1000}
@@ -49,18 +49,19 @@ export default function Projects() {
           </figure>
           <div className="card-body">
             <h2 className="card-title text-mwhite">
-              Business Stores and Items RESTful API
+              AI Pochmann Rubik's Cube Solver
             </h2>
             <p className=" text-mwhite">
-              A RESTful API using Flask, Python and Marshmallow to simulate
-              retail business operations like managing stores, items, and tags!
-              Also used PostgreSQL for the database, Insomnia and Postman for
-              testing, and Swagger/OpenAPI for endpoint documentation!
+              An application I made that is an AI-assisted training tool designed
+              to help people learn and master solving the Rubik&apos;s Cube BLD
+              using the Old Pochmann Method. It combines computer vision,
+              machine learning, and cubic algorithms into a single interactive
+              system that teaches, guides, and assists the solver!
             </p>
             <div className="card-actions justify-end">
               <Link
                 target="_blank"
-                href="https://github.com/Immrudul/Stores-RESTful-API-Flask"
+                href="https://github.com/Immrudul/pochmann-ai"
               >
                 <button className="mprojectbtn">GitHub</button>
               </Link>
