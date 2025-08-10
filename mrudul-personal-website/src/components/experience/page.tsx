@@ -48,7 +48,7 @@ export default function Experiences() {
                 </div>
                 <div className="text-zinc-400 ">San Francisco, California</div>
                 <div className="text-zinc-300 mt-6">
-                  Training and evluations for AI agents on plato.so.
+                  Training and evaluations for AI agents on plato.so.
                 </div>
                 <div className="flex flex-wrap gap-x-1.5 gap-y-1 items-center mt-3 text-sm mb-20 lg:w-[30vw] w-80 ">
                   <div className="mskill">Present</div>
