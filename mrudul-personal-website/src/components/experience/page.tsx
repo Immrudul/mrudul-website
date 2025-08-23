@@ -37,7 +37,7 @@ export default function Experiences() {
               <div className="lg:pl-10">
                 <div className="lg:mt-0 mt-4">
                   <span className="text-zinc-400">
-                    May 2025 - Present
+                    May 2025 - Aug 2025
                   </span>
                 </div>
                 <div className="text-mwhite font-bold text-2xl mt-6">
@@ -48,10 +48,23 @@ export default function Experiences() {
                 </div>
                 <div className="text-zinc-400 ">San Francisco, California</div>
                 <div className="text-zinc-300 mt-6">
-                  Training and evaluations for AI agents on plato.so.
+                  RL environments for browser agents on plato.so.
                 </div>
                 <div className="flex flex-wrap gap-x-1.5 gap-y-1 items-center mt-3 text-sm mb-20 lg:w-[30vw] w-80 ">
-                  <div className="mskill">Present</div>
+                  <div className="mskill">Docker</div>
+                  <div className="mskill">Linux</div>
+                  <div className="mskill">Python</div>
+                  <div className="mskill">AWS</div>
+                  <div className="mskill">CUA</div>
+                  <div className="mskill">Bash</div>
+                  <div className="mskill">PostgreSQL</div>
+                  <div className="mskill">MySQL</div>
+                  <div className="mskill">Redis</div>
+                  <div className="mskill">Nginx</div>
+                  <div className="mskill">FastAPI</div>
+                  <div className="mskill">React</div>
+                  <div className="mskill">Terraform</div>
+                  <div className="mskill">Depot</div>
                 </div>
               </div>
             </div>
@@ -172,9 +185,9 @@ export default function Experiences() {
                 </div>
               </div>
             </div>
-            <hr className="bg-mwhite" />
+            {/* <hr className="bg-mwhite" /> */}
           </li>
-          <li>
+          {/* <li>
             <hr className="bg-mwhite" />
             <div className="timeline-middle">
               <svg
@@ -225,8 +238,8 @@ export default function Experiences() {
               </div>
             </div>
             <hr className="bg-mwhite" />
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <hr className="bg-mwhite" />
             <div className="timeline-middle">
               <svg
@@ -273,7 +286,7 @@ export default function Experiences() {
                 </div>
               </div>
             </div>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
