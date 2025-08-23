@@ -129,8 +129,8 @@ export default function Projects() {
         <div className="my-6 card xl:w-96 w-[23rem] bg-zinc-800 shadow-xl">
           <figure>
             <Image
-              src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/NEW+Electric+Model+S3.jpg"
-              alt="electric car model thumbnail"
+              src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/world-data-analysis.png"
+              alt="global data insight engine thumbnail"
               className="aspect-video"
               width={1000}
               height={1000}
@@ -138,15 +138,23 @@ export default function Projects() {
           </figure>
           <div className="card-body">
             <h2 className="card-title  text-mwhite">
-              Electric Model Car Skeleton
+              Global Data Insight Engine
             </h2>
             <p className=" text-mwhite">
-              Engineered an electrical model car skeleton using a breadboard and
-              circuitry such as a 555 Timer and L293D IC Chips, Tilt Sensor and
-              more. Also includes bistable and astable multivibrators!
+              A small project I made to tackle the real-world problem of missing data in global statistics!
+              Uses OOP in C++ for storage, retrival and anaylsis of data from 60+ years worth of 
+              World Back Open Data! Uses a PyTorch BiLSTM autoencoder to impute missing data!
             </p>
             <div className="card-actions justify-end">
-              {/* <button className="btn btn-primary">Buy Now</button> */}
+            <Link
+                target="_blank"
+                  href="https://github.com/Immrudul/world-data-analysis"
+                >
+                <div className="herobutton">
+                  <GitHubIcon />
+                  <span className="pl-2 ">GitHub</span>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -222,27 +230,24 @@ export default function Projects() {
         <div className="my-6 card xl:w-96 w-[23rem] bg-zinc-800 shadow-xl">
           <figure>
             <Image
-              src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/CaSino%2B%2B+S3.png"
-              alt="casino++ thumnail"
+              src="https://mrudul-bucket1-s3.s3.us-east-2.amazonaws.com/NEW+Electric+Model+S3.jpg"
+              alt="electric car model thumbnail"
               className="aspect-video"
               width={1000}
               height={1000}
             />
           </figure>
-          <div className="card-body ">
-            <h2 className="card-title text-mwhite">CaSino++ </h2>
-            <p className="text-mwhite">
-              Designed a virtual casino program using C++ involving software for
-              games such as Blackjack, Binary Slots, Decimal Slots, Hexadecimal
-              Slots and War.
+          <div className="card-body">
+            <h2 className="card-title  text-mwhite">
+              Electric Model Car Skeleton
+            </h2>
+            <p className=" text-mwhite">
+              Engineered an electrical model car skeleton using a breadboard and
+              circuitry such as a 555 Timer and L293D IC Chips, Tilt Sensor and
+              more. Also includes bistable and astable multivibrators!
             </p>
             <div className="card-actions justify-end">
-              <Link target="_blank" href="https://github.com/Immrudul/Mrudul-Suresh-Coding-Projects">
-                <div className="herobutton">
-                  <GitHubIcon />
-                  <span className="pl-2 ">GitHub</span>
-                </div>
-              </Link>
+              {/* <button className="btn btn-primary">Buy Now</button> */}
             </div>
           </div>
         </div>
