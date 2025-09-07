@@ -2,7 +2,7 @@
 
 My personal website developed using Next.js, Typescript, Tailwind CSS, and DaisyUI deployed on Vercel! 
 
-Check it out at mrudulsuresh.com!
+Check it out at https://mrudulsuresh.com!
 
 I had no idea how to get started initially, but throughout my time at Groovever, I found that I had gained a whole lot of knowledge in front end dev! If you're in a similar position, feel free to check out my video on front-end dev: https://www.youtube.com/watch?v=5aN6b0BrA_c
 
